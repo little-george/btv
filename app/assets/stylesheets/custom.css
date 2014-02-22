@@ -1,0 +1,144 @@
+.container {
+  width: 800px;
+}
+
+body {
+  background: #edede6
+}
+
+header {
+  padding-top: 20px;
+  
+}
+
+header img {
+  padding: 1em;
+  /*background: #fff;*/
+}
+
+section {
+  margin-top: 1em;
+  /*border-width: thin;*/
+  border: solid #ddc 1px;
+  font-size: 120%;
+  padding: 20px;
+  background: #fff;
+}
+
+/* links */
+a {
+  color: #09c;
+  text-decoration: none;
+  
+}
+
+a:hover {
+  color: #069;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #069;
+}
+
+/* Navigation */
+
+nav {
+  float: right;
+  /*background: white;*/
+  padding: 0 0.7em;
+  white-space: nowrap;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: .2em 0;
+}
+
+nav ul li a {
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+nav ul li a:visited {
+  color: #09c;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+#navActions {
+  float: none;
+  background: white;
+  padding: 1em 1em;
+  white-space: nowrap;
+}
+
+#navActions ul {
+  margin: 0;
+  padding: 0;
+}
+
+#navActions ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: .2em 0;
+}
+
+#navActions ul li a {
+  padding: 0 10px;
+  font-weight: bold;
+  color: #f00;
+}
+
+#navActions ul li a:visited {
+  color: #f00;
+}
+
+#navActions ul li a:hover {
+  text-decoration: underline;
+}
+
+
+/* Footer */
+
+footer {
+  /*text-align: center;*/
+  margin-top: 10px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #998;
+}
+
+footer hr {
+  color: #ddc;
+  background-color: #ddc;
+  height: 1px;
+}
+
+footer nav {
+  float: none;
+}
+
+footer nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  text-align: left;
+  padding: .2em 20px;
+}
+
+/* Round corners */
+
+.round {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
